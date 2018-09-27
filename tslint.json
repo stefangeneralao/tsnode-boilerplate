@@ -1,0 +1,21 @@
+{
+  "extends": "tslint:recommended",
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*.ts"
+    ]
+  },
+  "rules": {
+    "no-empty-interface": false,
+    "no-console": false,
+    "trailing-comma": [
+      true, {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ],
+    "no-consecutive-blank-lines": true,
+    "quotemark": [true, "single"],
+    "arrow-parens": false
+  }
+}
